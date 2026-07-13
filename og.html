@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>OG card — Halfspace</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Spline+Sans+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; box-sizing: border-box; }
+  html, body { height: 100%; overflow: hidden; }
+  body {
+    background:
+      radial-gradient(90vw 70vh at 78% -10%, rgba(42,92,70,.6), transparent 65%),
+      radial-gradient(70vw 50vh at 15% 115%, rgba(255,90,31,.14), transparent 60%),
+      #0b241b;
+    color: #f5f7f2;
+    font-family: "Big Shoulders Display", sans-serif;
+    position: relative;
+  }
+  .card {
+    position: absolute; inset: 0;
+    padding: 6vh 6vw;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .wordmark {
+    font-size: 5.2vh; font-weight: 800; letter-spacing: .04em; text-transform: uppercase;
+    display: flex; align-items: baseline;
+  }
+  .wordmark .slash { color: #ff5a1f; margin: 0 .06em; }
+  .wordmark .space { color: #a8bcae; }
+  .wordmark small {
+    font-family: "Spline Sans Mono", monospace; font-size: 1.9vh; letter-spacing: .3em;
+    color: #a8bcae; margin-left: 2.2vw; font-weight: 500;
+  }
+  h1 {
+    font-size: 15.5vh; line-height: .92; font-weight: 800; text-transform: uppercase;
+    letter-spacing: .01em; max-width: 62vw;
+  }
+  h1 .accent { color: #ff5a1f; }
+  .foot {
+    font-family: "Spline Sans Mono", monospace; font-size: 2.2vh; letter-spacing: .18em;
+    text-transform: uppercase; color: #a8bcae; display: flex; align-items: center; gap: 1.4vw;
+  }
+  .foot::before { content: ""; width: 3vw; height: 2px; background: #ff5a1f; }
+  /* pitch motif right side */
+  svg.pitch {
+    position: absolute; right: 5vw; top: 50%; transform: translateY(-50%);
+    height: 76vh; opacity: .9;
+  }
+</style>
+</head>
+<body>
+  <svg class="pitch" viewBox="0 0 340 460" xmlns="http://www.w3.org/2000/svg">
+    <rect x="4" y="4" width="332" height="452" rx="8" fill="#0f2f23" stroke="#f5f7f2" stroke-opacity="0.3" stroke-width="2"/>
+    <rect x="70" y="6" width="66" height="448" fill="#ff5a1f" opacity="0.15"/>
+    <rect x="204" y="6" width="66" height="448" fill="#ff5a1f" opacity="0.15"/>
+    <line x1="70" y1="6" x2="70" y2="454" stroke="#ff5a1f" stroke-opacity="0.35" stroke-dasharray="4 6"/>
+    <line x1="136" y1="6" x2="136" y2="454" stroke="#ff5a1f" stroke-opacity="0.35" stroke-dasharray="4 6"/>
+    <line x1="204" y1="6" x2="204" y2="454" stroke="#ff5a1f" stroke-opacity="0.35" stroke-dasharray="4 6"/>
+    <line x1="270" y1="6" x2="270" y2="454" stroke="#ff5a1f" stroke-opacity="0.35" stroke-dasharray="4 6"/>
+    <line x1="4" y1="230" x2="336" y2="230" stroke="#f5f7f2" stroke-opacity="0.3" stroke-width="2"/>
+    <circle cx="170" cy="230" r="38" fill="none" stroke="#f5f7f2" stroke-opacity="0.3" stroke-width="2"/>
+    <rect x="92" y="4" width="156" height="58" fill="none" stroke="#f5f7f2" stroke-opacity="0.3" stroke-width="2"/>
+    <rect x="92" y="398" width="156" height="58" fill="none" stroke="#f5f7f2" stroke-opacity="0.3" stroke-width="2"/>
+    <path d="M120 384 L172 296 M172 296 L102 214 M102 214 L176 146" stroke="#f5f7f2" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="3 5"/>
+    <circle cx="172" cy="296" r="5" fill="#f5f7f2" opacity="0.7"/>
+    <circle cx="102" cy="214" r="5" fill="#f5f7f2" opacity="0.7"/>
+    <circle cx="176" cy="146" r="7" fill="#ff5a1f"/>
+  </svg>
+  <div class="card">
+    <div class="wordmark">Half<span class="slash">/</span><span class="space">Space</span><small>Player Development</small></div>
+    <h1>Smart players are <span class="accent">built</span>, not found.</h1>
+    <div class="foot">Private training · Film analysis · Alexandria, VA</div>
+  </div>
+</body>
+</html>

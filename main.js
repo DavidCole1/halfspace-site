@@ -82,7 +82,7 @@
         e.preventDefault();
         if (status) {
           status.textContent =
-            "This form isn’t connected yet. Please email us directly — the address is in the footer below.";
+            "This form isn’t connected yet. Please email me directly — my address is in the footer below.";
           status.className = "form-status err show";
         }
         return;
@@ -102,7 +102,7 @@
             form.reset();
             if (status) {
               status.textContent =
-                "Got it — your message is in. You’ll hear back within 48 hours.";
+                "Got it — your message is in. I’ll get back to you within 48 hours.";
               status.className = "form-status ok show";
             }
           } else {
@@ -112,7 +112,7 @@
         .catch(function () {
           if (status) {
             status.textContent =
-              "Something went wrong sending the form. Please try again, or email us directly — the address is in the footer.";
+              "Something went wrong sending the form. Please try again, or email me directly — my address is in the footer.";
             status.className = "form-status err show";
           }
         })

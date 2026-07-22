@@ -215,6 +215,11 @@ p { margin: 0 0 1em; }
 @media (min-width: 700px) {
   .wordmark small { display: inline; }
 }
+@media (max-width: 480px) {
+  .wordmark { font-size: 1.25rem; }
+  .wordmark-logo { width: 24px; height: 24px; margin-right: 8px; }
+  .nav-bar { gap: 12px; }
+}
 
 .nav-links {
   display: flex;

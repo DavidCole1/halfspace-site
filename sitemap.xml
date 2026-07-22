@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dans-soccer-lab.vercel.app/</loc>
+    <loc>https://cerebralsoccer.com/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://dans-soccer-lab.vercel.app/training.html</loc>
+    <loc>https://cerebralsoccer.com/training.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://dans-soccer-lab.vercel.app/film-room.html</loc>
+    <loc>https://cerebralsoccer.com/film-room.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://dans-soccer-lab.vercel.app/about.html</loc>
+    <loc>https://cerebralsoccer.com/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

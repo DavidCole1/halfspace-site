@@ -1,4 +1,4 @@
-/* DAN'S SOCCER LAB — shared behavior */
+/* CEREBRAL SOCCER — shared behavior */
 (function () {
   "use strict";
 

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page not found — Cerebral Soccer</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%2032%2032%27%3E%3Crect%20width%3D%2732%27%20height%3D%2732%27%20rx%3D%276%27%20fill%3D%27%230b241b%27/%3E%3Ccircle%20cx%3D%2716%27%20cy%3D%2716%27%20r%3D%279%27%20fill%3D%27none%27%20stroke%3D%27%23f5f7f2%27%20stroke-width%3D%271.6%27/%3E%3Cpath%20d%3D%27M16%2010.5%20L20.3%2013.6%20L18.7%2018.6%20L13.3%2018.6%20L11.7%2013.6%20Z%27%20fill%3D%27%23ff5a1f%27/%3E%3Cpath%20d%3D%27M16%2010.5%20V7%20M20.3%2013.6%20L23.5%2012%20M18.7%2018.6%20L20.5%2021.5%20M13.3%2018.6%20L11.5%2021.5%20M11.7%2013.6%20L8.5%2012%27%20stroke%3D%27%23f5f7f2%27%20stroke-width%3D%271.2%27/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    .notfound {
+      min-height: calc(100vh - 72px);
+      display: flex;
+      align-items: center;
+    }
+    .notfound-inner { max-width: 560px; }
+    .notfound h1 { font-size: clamp(3rem, 9vw, 5.5rem); }
+    .notfound .whistle {
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--cone);
+      margin-bottom: 16px;
+      display: block;
+    }
+  </style>
+</head>
+<body style="background: var(--night);">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="wordmark" href="/index.html" aria-label="Cerebral Soccer — home">
+        <span class="half">Cerebral&nbsp;</span><span class="lab">Soccer</span>
+        <small>Player Development</small>
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="notfound on-night">
+      <div class="container">
+        <div class="notfound-inner">
+          <span class="whistle">404 · Whistle blown</span>
+          <h1>Out of <span style="color: var(--cone);">bounds</span>.</h1>
+          <p class="lede" style="margin: 18px 0 30px;">That page went out of play — it doesn't exist or has moved. Let's restart from the touchline.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-cone" href="/index.html">Back to the pitch</a>
+            <a class="btn btn-ghost" href="/film-room.html">Visit the Film Room</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

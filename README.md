@@ -1,4 +1,4 @@
-# Dan’s Soccer Lab — website
+# Cerebral Soccer — website
 
 Static site for Coach Daniel. No build step, no dependencies — plain HTML/CSS/JS, ready for GitHub + Vercel.
 
@@ -22,7 +22,7 @@ Any later edit: commit + push, Vercel redeploys automatically.
 
 ## Status
 
-Live at https://dans-soccer-lab.vercel.app — forms connected (Formspree → dansoccerlab@gmail.com),
+Live at https://cerebralsoccer.com — forms connected (Formspree → dansoccerlab@gmail.com),
 phone & email in footer, SEO files (sitemap.xml, robots.txt, JSON-LD), Search Console verified,
 homepage indexed by Google. Google Business Profile created (verification pending).
 

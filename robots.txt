@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /og.html
 
-Sitemap: https://dans-soccer-lab.vercel.app/sitemap.xml
+Sitemap: https://cerebralsoccer.com/sitemap.xml

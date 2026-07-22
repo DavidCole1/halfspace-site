@@ -13,7 +13,7 @@ Static site for Coach Daniel. No build step, no dependencies — plain HTML/CSS/
 
 ## Deploy (GitHub + Vercel)
 
-1. Create a new GitHub repo (e.g. `dans-soccer-lab`) and push this folder's contents to the repo root.
+1. Create a new GitHub repo (e.g. `cerebral-soccer`) and push this folder's contents to the repo root.
 2. In Vercel: **Add New → Project → Import** the repo.
 3. Framework preset: **Other**. Leave build command and output directory empty. Deploy.
 4. Add a custom domain in Vercel → Project → Settings → Domains when ready.

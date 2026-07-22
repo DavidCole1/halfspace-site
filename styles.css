@@ -190,8 +190,15 @@ p { margin: 0 0 1em; }
   color: var(--chalk);
   text-decoration: none;
   display: flex;
-  align-items: baseline;
+  align-items: center;
   line-height: 1;
+}
+.wordmark-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 11px;
+  flex: none;
+  display: block;
 }
 .wordmark .half { color: var(--chalk); }
 .wordmark .slash { color: var(--cone); margin: 0 2px; font-weight: 700; }
